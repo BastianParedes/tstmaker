@@ -1,0 +1,5 @@
+salto_automatico = False
+
+procedimiento = r"""Para saber si dos términos son semejantes solo hay que observar si sus partes literales son iguales o no.\\\\
+Ejemplo 1: Los términos $\mathrm{-6{a}^{2}b}$ y $\mathrm{5b{a}^{2}}$ SÍ son semejantes, ya que sus partes literales son iguales. Sus partes numéricas son distintas, pero eso no influye en si dos términos son iguales o distintos. Las partes literales están en distinto orden, pero si ambos términos tienen las mismas letras y los mismos exponentes (en sus correspondientes letras) entonces los términos sí son semejantes.\\\\
+Ejemplo 2: Los términos $\mathrm{9{a}^{2}b}$ y $\mathrm{9a{b}^{2}}$ NO son semejantes, ya que sus partes literales no son iguales. Sí es cierto que tienen las mismas letras a y b, pero los exponentes no son los mismos. En el primer término, la letra a tiene exponente 2, pero en el segundo término tiene exponente 1 (que no está escrito). Respecto a la letra b en el primer término tiene exponente 1 (que no está escrito), pero en el segundo término tiene exponente 2."""
